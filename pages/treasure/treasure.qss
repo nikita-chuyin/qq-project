@@ -1,0 +1,62 @@
+@import './../template/template.qss';
+@import './../template/icon.qss';
+.scanCode{
+    /* width: 100px; */
+    /* height: 80px; */
+    /* background: #777; */
+    font-size: 13px;
+}
+.header .head_switch{
+    background: yellow;
+}
+.main{
+    padding: 0 10px;
+}
+.module_img{
+}
+.main_module,.module_right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.at_right{
+    flex: 2;
+}
+.at_left{
+    flex: 1;
+}
+.main_module .module_text{
+    width: 80px;
+    height: 85px;
+    background: green;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 5px;
+}
+.module_text view{
+    font-size: 25px;
+    font-weight: bold;
+}
+.box{
+    width: 80px;
+    height: 35px;
+    border-radius: 3px;
+    box-shadow:0px 0px  25px 3px #aaa;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.box .icon_box{
+    background: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+    font-size: 12px;
+    margin-right: 4px;
+}

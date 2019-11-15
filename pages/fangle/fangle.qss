@@ -1,0 +1,43 @@
+@import './../template/template.qss';
+.body{
+    background: #eee;
+}
+.header{
+    display: flex;
+    padding: 5px 2px;
+}
+.header .header_block{
+    display: flex;
+    padding-top: 3px;
+    font-size: 14px;
+}
+.main{
+    border-bottom: 8px solid white;
+}
+.main_content{
+    padding: 8px;
+    font-size: 14px;
+}
+.main_title{
+    display: flex;
+    padding: 8px;
+}
+.main_title .title_name{
+    margin-left: 6px;
+}
+.title_name view{
+    font-size: 12px;
+    color: gray;
+}
+.main_comment{
+    display: flex;
+    align-item: center;
+    justify-content: center;
+    padding: 3px;
+}
+.main_comment view{
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}

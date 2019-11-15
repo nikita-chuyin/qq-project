@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/fangle/fangle",
+    "pages/treasure/treasure",
+    "pages/mine/mine",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "QQ小程序",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "课程表",
+        "iconPath": "pages/images/index.png"
+      },
+      {
+        "pagePath": "pages/fangle/fangle",
+        "text": "新鲜事",
+        "iconPath": "pages/images/fangle.png"
+      },
+      {
+        "pagePath": "pages/treasure/treasure",
+        "text": "百宝箱"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "pages/images/mine.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+ @import './icon.qss';
+ .navigation_grounp{
+     position: flexed;
+     top: 0;
+     width: 100%;
+ }
+ .navigation_grounp > .navigation{
+     display: flex;
+     align-items: flex-end;
+     box-sizing: border-box;
+     padding-bottom: 10px;
+     padding-left: 15px;
+     background-color: green; 
+     height: 55px;
+     color:white;
+ }
+ .navigation .nav_search{
+     overflow: hidden;
+ }
+  .navigation .nav_title{
+      padding-left: 33%;;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+ }
+/* .nav_search:hover{
+    color: red;
+    width: 100%;
+    margin-left: 20px;
+    border-bottom: 1px solid white;
+} */
+.input_hidden{
+    border-bottom: 1px solid white;
+    display: none;
+    color: white;
+    font-size: 16px;
+}
