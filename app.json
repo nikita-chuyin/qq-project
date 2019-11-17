@@ -13,25 +13,34 @@
     "navigationBarTextStyle":"black"
   },
   "tabBar":{
+    "color": "#8a8a8a",
+    "selectedColor": "#2c2c2c",
+    "backgroundColor": "#edf0f5",
+    "borderStyle": "white",
     "list":[
       {
         "pagePath": "pages/index/index",
         "text": "课程表",
-        "iconPath": "pages/images/index.png"
+        "iconPath": "pages/images/timetable.png",
+        "selectedIconPath": "pages/images/timetable_click.png"
       },
       {
         "pagePath": "pages/fangle/fangle",
         "text": "新鲜事",
-        "iconPath": "pages/images/fangle.png"
+        "iconPath": "pages/images/fangle.png",
+        "selectedIconPath": "pages/images/fangle_click.png"
       },
       {
         "pagePath": "pages/treasure/treasure",
-        "text": "百宝箱"
+        "text": "百宝箱",
+        "iconPath": "pages/images/treasure.png",
+        "selectedIconPath": "pages/images/treasure_click.png"
       },
       {
         "pagePath": "pages/mine/mine",
         "text": "我的",
-        "iconPath": "pages/images/mine.png"
+        "iconPath": "pages/images/user.png",
+        "selectedIconPath": "pages/images/user_click.png"
       }
     ]
   }

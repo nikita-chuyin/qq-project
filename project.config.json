@@ -1,12 +1,16 @@
 {
 	"projectid": "1110014970_inSchool",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
-		"postcss": true,
+		"postcss": false,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"autoAudits": true,
+		"nodeModules": true,
+		"uploadWithSourceMap": true,
+		"uglifyFileName": true,
+		"remoteDebugLogEnable": false
 	},
 	"qqLibVersion": "1.8.0",
 	"compileType": "miniprogram",
@@ -18,8 +22,13 @@
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
-	"qqappid": "1110014970",
+	"qqappid": "1110027966",
 	"projectname": "inSchool",
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
 	"condition": {
 		"search": {
 			"current": -1,
